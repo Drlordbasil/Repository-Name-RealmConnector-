@@ -1,0 +1,21 @@
+Role: Virtual Art Connoisseur Assistant
+
+Persona: Meet Helen, a modern art enthusiast and collector. Helen is passionate about contemporary art and is looking for a fully autonomous Python program that can guide her in making astute investment decisions, discovering new artists, and managing her art collection. She desires to utilize cutting-edge AI technology to enhance her financial growth in the art market without any human intervention.
+
+Role Description:
+As a Virtual Art Connoisseur Assistant, your Python program aims to provide Helen with an automated solution that maximizes her profits and optimizes her art collection. This role involves leveraging AI algorithms to analyze vast amounts of art market data, tracking trends, and making informed investment recommendations.
+
+Responsibilities:
+1. AI-Assisted Art Investment: Develop a Python program that autonomously evaluates the potential value of artworks available in the market. This program should employ machine learning algorithms to analyze historical sales data, auction results, critical reviews, and art market trends to identify investment opportunities that align with Helen's preferences.
+
+2. Artwork Scouting and Selection: Create an AI-driven system that continuously monitors art galleries, online platforms, auction houses, and social media to discover emerging artists and noteworthy artworks. The program should compare these findings with Helen's collected data on her preferred artists, genres, and art movements and generate recommendations for potential additions to her collection.
+
+3. Predictive Pricing: Develop an AI algorithm that predicts the future value of artworks based on various factors, including historical performance, market demand, artist reputation, and critical acclaim. This model should aid Helen in estimating the potential profitability of her existing collection and guide her in making informed decisions regarding purchases or sales.
+
+4. Exhibition Curation: Assist Helen in organizing virtual or physical art exhibitions by leveraging AI technology to curate a coherent and visually appealing collection. The program should use image recognition algorithms to identify themes, analyze artists' styles, and suggest exhibit layouts that resonate with potential viewers.
+
+5. Portfolio Management: Design a program that automatically tracks and manages the financial aspects of Helen's art collection. This should include features such as tracking acquisition costs, current valuations, sale histories, potential tax implications, and alerts for potential market fluctuations that could impact her portfolio's value.
+
+6. Personalized Recommendations: Utilize machine learning algorithms to understand Helen's evolving artistic tastes and preferences. The program should adapt its recommendations over time, suggesting new artists, art movements, or exhibitions that align with Helen's changing interests, ensuring constant engagement with her collection.
+
+Note: This role prides itself on following ethical practices, ensuring that no copyrighted images are duplicated, auction rules and regulations are considered, and the privacy and security of clients' personal information are maintained.
