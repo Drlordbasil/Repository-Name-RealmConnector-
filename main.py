@@ -12,10 +12,12 @@ class WebContentRecommendationSystem:
         self.nlp_classification = pipeline("text-classification")
 
     def get_user_preferences(self):
-        self.preferences = input("Enter your preferences (topics, keywords, sources): ").split(", ")
+        self.preferences = input(
+            "Enter your preferences (topics, keywords, sources): ").split(", ")
 
     def update_user_preferences(self):
-        self.preferences = input("Update your preferences (topics, keywords, sources): ").split(", ")
+        self.preferences = input(
+            "Update your preferences (topics, keywords, sources): ").split(", ")
 
     def search_web_content(self):
         search_query = " ".join(self.preferences)
@@ -54,7 +56,8 @@ class WebContentRecommendationSystem:
             processed_summary = self.process_text_data(summary)
             classification = self.classify_content(processed_summary)
             if classification in self.preferences:
-                self.recommendations.append({"title": title, "summary": processed_summary})
+                self.recommendations.append(
+                    {"title": title, "summary": processed_summary})
 
     def update_recommendations(self):
         self.recommendations = []
