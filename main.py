@@ -1,27 +1,24 @@
-Here are some code optimizations for the Python script:
+Here are the code optimizations for the Python script:
 
 1. Add type annotations to improve code readability and catch potential type errors:
 ```python
 
 
-def search_web_content(self) -> str:
-    ...
+class WebContentRecommendationSystem:
+    def search_web_content(self) -> str:
+        ...
 
+    def extract_content_information(self, html_content: str) -> List[Dict[str, str]]:
+        ...
 
-def extract_content_information(self, html_content: str) -> List[Dict[str, str]]:
-    ...
+    def process_text_data(self, text_data: str) -> str:
+        ...
 
+    def classify_content(self, content: str) -> str:
+        ...
 
-def process_text_data(self, text_data: str) -> str:
-    ...
-
-
-def classify_content(self, content: str) -> str:
-    ...
-
-
-def recommend_content(self) -> None:
-    ...
+    def recommend_content(self) -> None:
+        ...
 
 
 ```
@@ -33,7 +30,8 @@ def recommend_content(self) -> None:
 def extract_content_information(self, html_content: str) -> List[Dict[str, str]]:
     soup = BeautifulSoup(html_content, "html.parser")
     articles = soup.find_all("article")
-    return [{"title": article.find("h2").text.strip(), "summary": article.find("p").text.strip()} for article in articles]
+    return [{"title": article.find("h2").text.strip(),
+             "summary": article.find("p").text.strip()} for article in articles]
 
 
 ```
@@ -42,12 +40,12 @@ def extract_content_information(self, html_content: str) -> List[Dict[str, str]]
 ```python
 
 
-def get_user_preferences(self) -> None:
-    ...
+class WebContentRecommendationSystem:
+    def get_user_preferences(self) -> None:
+        ...
 
-
-def update_user_preferences(self) -> None:
-    ...
+    def update_user_preferences(self) -> None:
+        ...
 
 
 ```
@@ -63,7 +61,8 @@ print(f"Error occurred while searching web content: {e}")
 
 def display_recommendations(self) -> None:
     recommendations = "\n".join(
-        [f"Title: {recommendation['title']}\nSummary: {recommendation['summary']}\n--------------------------" for recommendation in self.recommendations])
+        [f"Title: {recommendation['title']}\nSummary: {recommendation['summary']}\n--------------------------"
+         for recommendation in self.recommendations])
     print(recommendations)
 
 
